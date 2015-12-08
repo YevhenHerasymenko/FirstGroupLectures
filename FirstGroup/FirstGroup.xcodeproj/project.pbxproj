@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C4236C8F1C17519800690F74 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4236C8E1C17519800690F74 /* TableViewController.m */; };
+		C4236C921C175F9700690F74 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C4236C911C175F9700690F74 /* Car.m */; };
+		C4236C951C175FCE00690F74 /* Car+Run.m in Sources */ = {isa = PBXBuildFile; fileRef = C4236C941C175FCE00690F74 /* Car+Run.m */; };
+		C4236C981C1760CC00690F74 /* NSObject+SuperPower.m in Sources */ = {isa = PBXBuildFile; fileRef = C4236C971C1760CC00690F74 /* NSObject+SuperPower.m */; };
 		C49DEDBE1C13489600EA57CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDBD1C13489600EA57CC /* main.m */; };
 		C49DEDC11C13489600EA57CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDC01C13489600EA57CC /* AppDelegate.m */; };
 		C49DEDC41C13489600EA57CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDC31C13489600EA57CC /* ViewController.m */; };
@@ -38,6 +41,12 @@
 /* Begin PBXFileReference section */
 		C4236C8D1C17519800690F74 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C4236C8E1C17519800690F74 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C4236C901C175F9700690F74 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		C4236C911C175F9700690F74 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		C4236C931C175FCE00690F74 /* Car+Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Car+Run.h"; sourceTree = "<group>"; };
+		C4236C941C175FCE00690F74 /* Car+Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Car+Run.m"; sourceTree = "<group>"; };
+		C4236C961C1760CC00690F74 /* NSObject+SuperPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SuperPower.h"; sourceTree = "<group>"; };
+		C4236C971C1760CC00690F74 /* NSObject+SuperPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SuperPower.m"; sourceTree = "<group>"; };
 		C49DEDB91C13489600EA57CC /* FirstGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49DEDBD1C13489600EA57CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C49DEDBF1C13489600EA57CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +117,12 @@
 				C49DEDC01C13489600EA57CC /* AppDelegate.m */,
 				C49DEDC21C13489600EA57CC /* ViewController.h */,
 				C49DEDC31C13489600EA57CC /* ViewController.m */,
+				C4236C901C175F9700690F74 /* Car.h */,
+				C4236C911C175F9700690F74 /* Car.m */,
+				C4236C931C175FCE00690F74 /* Car+Run.h */,
+				C4236C941C175FCE00690F74 /* Car+Run.m */,
+				C4236C961C1760CC00690F74 /* NSObject+SuperPower.h */,
+				C4236C971C1760CC00690F74 /* NSObject+SuperPower.m */,
 				C4236C8D1C17519800690F74 /* TableViewController.h */,
 				C4236C8E1C17519800690F74 /* TableViewController.m */,
 				C49DEDC51C13489600EA57CC /* Main.storyboard */,
@@ -275,7 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4236C981C1760CC00690F74 /* NSObject+SuperPower.m in Sources */,
+				C4236C921C175F9700690F74 /* Car.m in Sources */,
 				C49DEDC41C13489600EA57CC /* ViewController.m in Sources */,
+				C4236C951C175FCE00690F74 /* Car+Run.m in Sources */,
 				C49DEDC11C13489600EA57CC /* AppDelegate.m in Sources */,
 				C49DEDBE1C13489600EA57CC /* main.m in Sources */,
 				C4236C8F1C17519800690F74 /* TableViewController.m in Sources */,
