@@ -23,6 +23,10 @@
     self.dataArray = @[@"dfsd", @"sdfsdf", @"sdfsf"];
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"BLa" style:UIBarButtonItemStylePlain target:self action:@selector(edit:)];
     self.navigationItem.rightBarButtonItems = @[item, self.editButtonItem];
+    
+//    [self.tableView beginUpdates];
+//    [self.tableView insertRowsAtIndexPaths:nil withRowAnimation:nil];
+//    [self.tableView endUpdates];
 }
 
 - (void)didReceiveMemoryWarning {
