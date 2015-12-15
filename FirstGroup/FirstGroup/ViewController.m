@@ -47,14 +47,16 @@ static NSString *const WeatherCityNameUrl = @"/data/2.5/weather?q=%@,uk&appid=2d
     //session
     NSURLSession *session = [NSURLSession sharedSession];
     
+    //url
     NSString *urlString = [BasicUrl stringByAppendingString:WeatherCityNameUrl];
     urlString = [NSString stringWithFormat:urlString, textField.text];
     NSURL *url = [NSURL URLWithString:urlString];
     
-    
+    //request
     NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url
                                             completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                                                 __strong typeof(weakSelf) strongSelf = weakSelf;
+                                                //parsing request
                                                 NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
                                                 [strongSelf configurationScreenWithDictionary:json];
                                             }];
