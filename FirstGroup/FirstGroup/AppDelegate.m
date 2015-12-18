@@ -14,6 +14,8 @@
 
 @implementation AppDelegate
 
+static NSString *const MovieDBAPIKey = @"4a4458ca87249eb4585b24deecb41376";
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
