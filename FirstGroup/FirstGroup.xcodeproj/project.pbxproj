@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C40F5C1C1C2084450020BBB2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40F5C1B1C2084450020BBB2 /* MapKit.framework */; };
-		C40F5C211C20850D0020BBB2 /* FGPFindWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F5C1E1C20850D0020BBB2 /* FGPFindWeatherViewController.m */; };
-		C40F5C221C20850D0020BBB2 /* FGPMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F5C201C20850D0020BBB2 /* FGPMapViewController.m */; };
 		C4891FEC1C247914000C4852 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4891FEA1C247914000C4852 /* FBSDKCoreKit.framework */; };
 		C4891FED1C247914000C4852 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4891FEB1C247914000C4852 /* FBSDKLoginKit.framework */; };
-		C4891FF01C247A22000C4852 /* FGPFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4891FEF1C247A22000C4852 /* FGPFacebookViewController.m */; };
-		C4891FF31C2497BF000C4852 /* FGPMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = C4891FF21C2497BF000C4852 /* FGPMovie.m */; };
-		C4891FF61C249C64000C4852 /* FGPKnower.m in Sources */ = {isa = PBXBuildFile; fileRef = C4891FF51C249C64000C4852 /* FGPKnower.m */; };
 		C49DEDBE1C13489600EA57CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDBD1C13489600EA57CC /* main.m */; };
 		C49DEDC11C13489600EA57CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDC01C13489600EA57CC /* AppDelegate.m */; };
 		C49DEDC71C13489600EA57CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49DEDC51C13489600EA57CC /* Main.storyboard */; };
-		C49DEDCA1C13489600EA57CC /* FirstGroup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDC81C13489600EA57CC /* FirstGroup.xcdatamodeld */; };
 		C49DEDCC1C13489600EA57CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49DEDCB1C13489600EA57CC /* Assets.xcassets */; };
 		C49DEDCF1C13489600EA57CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49DEDCD1C13489600EA57CC /* LaunchScreen.storyboard */; };
 		C49DEDDA1C13489600EA57CC /* FirstGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDD91C13489600EA57CC /* FirstGroupTests.m */; };
 		C49DEDE51C13489600EA57CC /* FirstGroupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DEDE41C13489600EA57CC /* FirstGroupUITests.m */; };
+		C4EB9F861C29DA63007368E6 /* FirstGroup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F841C29DA63007368E6 /* FirstGroup.xcdatamodeld */; };
+		C4EB9F891C29DA86007368E6 /* FGPCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F881C29DA86007368E6 /* FGPCoreDataManager.m */; };
+		C4EB9F961C29DC3B007368E6 /* FGPKnower.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F8C1C29DC3B007368E6 /* FGPKnower.m */; };
+		C4EB9F971C29DC3B007368E6 /* FGPMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F8E1C29DC3B007368E6 /* FGPMovie.m */; };
+		C4EB9F981C29DC3B007368E6 /* FGPFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F911C29DC3B007368E6 /* FGPFacebookViewController.m */; };
+		C4EB9F991C29DC3B007368E6 /* FGPFindWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F931C29DC3B007368E6 /* FGPFindWeatherViewController.m */; };
+		C4EB9F9A1C29DC3B007368E6 /* FGPMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F951C29DC3B007368E6 /* FGPMapViewController.m */; };
+		C4EB9FA01C29DEBB007368E6 /* FGPCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9F9F1C29DEBB007368E6 /* FGPCoreDataTableViewController.m */; };
+		C4EB9FA51C29DF25007368E6 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9FA21C29DF25007368E6 /* Person+CoreDataProperties.m */; };
+		C4EB9FA61C29DF25007368E6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB9FA41C29DF25007368E6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,24 +48,13 @@
 
 /* Begin PBXFileReference section */
 		C40F5C1B1C2084450020BBB2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C40F5C1D1C20850D0020BBB2 /* FGPFindWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPFindWeatherViewController.h; sourceTree = "<group>"; };
-		C40F5C1E1C20850D0020BBB2 /* FGPFindWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPFindWeatherViewController.m; sourceTree = "<group>"; };
-		C40F5C1F1C20850D0020BBB2 /* FGPMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPMapViewController.h; sourceTree = "<group>"; };
-		C40F5C201C20850D0020BBB2 /* FGPMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPMapViewController.m; sourceTree = "<group>"; };
 		C4891FEA1C247914000C4852 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		C4891FEB1C247914000C4852 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		C4891FEE1C247A22000C4852 /* FGPFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPFacebookViewController.h; sourceTree = "<group>"; };
-		C4891FEF1C247A22000C4852 /* FGPFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPFacebookViewController.m; sourceTree = "<group>"; };
-		C4891FF11C2497BF000C4852 /* FGPMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPMovie.h; sourceTree = "<group>"; };
-		C4891FF21C2497BF000C4852 /* FGPMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPMovie.m; sourceTree = "<group>"; };
-		C4891FF41C249C64000C4852 /* FGPKnower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPKnower.h; sourceTree = "<group>"; };
-		C4891FF51C249C64000C4852 /* FGPKnower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPKnower.m; sourceTree = "<group>"; };
 		C49DEDB91C13489600EA57CC /* FirstGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49DEDBD1C13489600EA57CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C49DEDBF1C13489600EA57CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C49DEDC01C13489600EA57CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C49DEDC61C13489600EA57CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C49DEDC91C13489600EA57CC /* FirstGroup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstGroup.xcdatamodel; sourceTree = "<group>"; };
 		C49DEDCB1C13489600EA57CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49DEDCE1C13489600EA57CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49DEDD01C13489600EA57CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +64,25 @@
 		C49DEDE01C13489600EA57CC /* FirstGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49DEDE41C13489600EA57CC /* FirstGroupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstGroupUITests.m; sourceTree = "<group>"; };
 		C49DEDE61C13489600EA57CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EB9F851C29DA63007368E6 /* FirstGroup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstGroup.xcdatamodel; sourceTree = "<group>"; };
+		C4EB9F871C29DA86007368E6 /* FGPCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPCoreDataManager.h; sourceTree = "<group>"; };
+		C4EB9F881C29DA86007368E6 /* FGPCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPCoreDataManager.m; sourceTree = "<group>"; };
+		C4EB9F8B1C29DC3B007368E6 /* FGPKnower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPKnower.h; sourceTree = "<group>"; };
+		C4EB9F8C1C29DC3B007368E6 /* FGPKnower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPKnower.m; sourceTree = "<group>"; };
+		C4EB9F8D1C29DC3B007368E6 /* FGPMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPMovie.h; sourceTree = "<group>"; };
+		C4EB9F8E1C29DC3B007368E6 /* FGPMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPMovie.m; sourceTree = "<group>"; };
+		C4EB9F901C29DC3B007368E6 /* FGPFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPFacebookViewController.h; sourceTree = "<group>"; };
+		C4EB9F911C29DC3B007368E6 /* FGPFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPFacebookViewController.m; sourceTree = "<group>"; };
+		C4EB9F921C29DC3B007368E6 /* FGPFindWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPFindWeatherViewController.h; sourceTree = "<group>"; };
+		C4EB9F931C29DC3B007368E6 /* FGPFindWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPFindWeatherViewController.m; sourceTree = "<group>"; };
+		C4EB9F941C29DC3B007368E6 /* FGPMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPMapViewController.h; sourceTree = "<group>"; };
+		C4EB9F951C29DC3B007368E6 /* FGPMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPMapViewController.m; sourceTree = "<group>"; };
+		C4EB9F9E1C29DEBB007368E6 /* FGPCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPCoreDataTableViewController.h; sourceTree = "<group>"; };
+		C4EB9F9F1C29DEBB007368E6 /* FGPCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPCoreDataTableViewController.m; sourceTree = "<group>"; };
+		C4EB9FA11C29DF25007368E6 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C4EB9FA21C29DF25007368E6 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C4EB9FA31C29DF25007368E6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C4EB9FA41C29DF25007368E6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,24 +148,22 @@
 		C49DEDBB1C13489600EA57CC /* FirstGroup */ = {
 			isa = PBXGroup;
 			children = (
+				C4EB9F8A1C29DC3B007368E6 /* Models */,
+				C4EB9F8F1C29DC3B007368E6 /* ViewControllers */,
 				C49DEDBF1C13489600EA57CC /* AppDelegate.h */,
 				C49DEDC01C13489600EA57CC /* AppDelegate.m */,
-				C40F5C1D1C20850D0020BBB2 /* FGPFindWeatherViewController.h */,
-				C40F5C1E1C20850D0020BBB2 /* FGPFindWeatherViewController.m */,
-				C40F5C1F1C20850D0020BBB2 /* FGPMapViewController.h */,
-				C40F5C201C20850D0020BBB2 /* FGPMapViewController.m */,
+				C4EB9FA11C29DF25007368E6 /* Person+CoreDataProperties.h */,
+				C4EB9FA21C29DF25007368E6 /* Person+CoreDataProperties.m */,
+				C4EB9FA31C29DF25007368E6 /* Person.h */,
+				C4EB9FA41C29DF25007368E6 /* Person.m */,
 				C49DEDC51C13489600EA57CC /* Main.storyboard */,
 				C49DEDCB1C13489600EA57CC /* Assets.xcassets */,
 				C49DEDCD1C13489600EA57CC /* LaunchScreen.storyboard */,
 				C49DEDD01C13489600EA57CC /* Info.plist */,
-				C49DEDC81C13489600EA57CC /* FirstGroup.xcdatamodeld */,
 				C49DEDBC1C13489600EA57CC /* Supporting Files */,
-				C4891FEE1C247A22000C4852 /* FGPFacebookViewController.h */,
-				C4891FEF1C247A22000C4852 /* FGPFacebookViewController.m */,
-				C4891FF11C2497BF000C4852 /* FGPMovie.h */,
-				C4891FF21C2497BF000C4852 /* FGPMovie.m */,
-				C4891FF41C249C64000C4852 /* FGPKnower.h */,
-				C4891FF51C249C64000C4852 /* FGPKnower.m */,
+				C4EB9F841C29DA63007368E6 /* FirstGroup.xcdatamodeld */,
+				C4EB9F871C29DA86007368E6 /* FGPCoreDataManager.h */,
+				C4EB9F881C29DA86007368E6 /* FGPCoreDataManager.m */,
 			);
 			path = FirstGroup;
 			sourceTree = "<group>";
@@ -182,6 +192,32 @@
 				C49DEDE61C13489600EA57CC /* Info.plist */,
 			);
 			path = FirstGroupUITests;
+			sourceTree = "<group>";
+		};
+		C4EB9F8A1C29DC3B007368E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB9F8B1C29DC3B007368E6 /* FGPKnower.h */,
+				C4EB9F8C1C29DC3B007368E6 /* FGPKnower.m */,
+				C4EB9F8D1C29DC3B007368E6 /* FGPMovie.h */,
+				C4EB9F8E1C29DC3B007368E6 /* FGPMovie.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4EB9F8F1C29DC3B007368E6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB9F901C29DC3B007368E6 /* FGPFacebookViewController.h */,
+				C4EB9F911C29DC3B007368E6 /* FGPFacebookViewController.m */,
+				C4EB9F921C29DC3B007368E6 /* FGPFindWeatherViewController.h */,
+				C4EB9F931C29DC3B007368E6 /* FGPFindWeatherViewController.m */,
+				C4EB9F941C29DC3B007368E6 /* FGPMapViewController.h */,
+				C4EB9F951C29DC3B007368E6 /* FGPMapViewController.m */,
+				C4EB9F9E1C29DEBB007368E6 /* FGPCoreDataTableViewController.h */,
+				C4EB9F9F1C29DEBB007368E6 /* FGPCoreDataTableViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,14 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4891FF01C247A22000C4852 /* FGPFacebookViewController.m in Sources */,
-				C4891FF61C249C64000C4852 /* FGPKnower.m in Sources */,
-				C49DEDCA1C13489600EA57CC /* FirstGroup.xcdatamodeld in Sources */,
-				C40F5C221C20850D0020BBB2 /* FGPMapViewController.m in Sources */,
+				C4EB9F981C29DC3B007368E6 /* FGPFacebookViewController.m in Sources */,
+				C4EB9F891C29DA86007368E6 /* FGPCoreDataManager.m in Sources */,
 				C49DEDC11C13489600EA57CC /* AppDelegate.m in Sources */,
-				C40F5C211C20850D0020BBB2 /* FGPFindWeatherViewController.m in Sources */,
+				C4EB9F971C29DC3B007368E6 /* FGPMovie.m in Sources */,
+				C4EB9F861C29DA63007368E6 /* FirstGroup.xcdatamodeld in Sources */,
+				C4EB9FA51C29DF25007368E6 /* Person+CoreDataProperties.m in Sources */,
+				C4EB9FA61C29DF25007368E6 /* Person.m in Sources */,
+				C4EB9F9A1C29DC3B007368E6 /* FGPMapViewController.m in Sources */,
+				C4EB9F961C29DC3B007368E6 /* FGPKnower.m in Sources */,
+				C4EB9F991C29DC3B007368E6 /* FGPFindWeatherViewController.m in Sources */,
+				C4EB9FA01C29DEBB007368E6 /* FGPCoreDataTableViewController.m in Sources */,
 				C49DEDBE1C13489600EA57CC /* main.m in Sources */,
-				C4891FF31C2497BF000C4852 /* FGPMovie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,12 +619,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C49DEDC81C13489600EA57CC /* FirstGroup.xcdatamodeld */ = {
+		C4EB9F841C29DA63007368E6 /* FirstGroup.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C49DEDC91C13489600EA57CC /* FirstGroup.xcdatamodel */,
+				C4EB9F851C29DA63007368E6 /* FirstGroup.xcdatamodel */,
 			);
-			currentVersion = C49DEDC91C13489600EA57CC /* FirstGroup.xcdatamodel */;
+			currentVersion = C4EB9F851C29DA63007368E6 /* FirstGroup.xcdatamodel */;
 			path = FirstGroup.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
