@@ -15,6 +15,8 @@
 		C4EEBCD01C4571F100B13D7B /* Lesson19UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EEBCCF1C4571F100B13D7B /* Lesson19UITests.m */; };
 		C4EEBCE61C458A1C00B13D7B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EEBCE51C458A1C00B13D7B /* TableViewController.m */; };
 		C4EEBCE91C458A2400B13D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EEBCE71C458A2400B13D7B /* Main.storyboard */; };
+		C4EFF7031C4973E500739B21 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7021C4973E500739B21 /* TestTableViewController.m */; };
+		C4EFF7061C49769E00739B21 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7051C49769E00739B21 /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C4EEBCE41C458A1C00B13D7B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C4EEBCE51C458A1C00B13D7B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C4EEBCE81C458A2400B13D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EFF7011C4973E500739B21 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		C4EFF7021C4973E500739B21 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		C4EFF7041C49769E00739B21 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		C4EFF7051C49769E00739B21 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C4EEBCAE1C4571F100B13D7B /* AppDelegate.m */,
 				C4EEBCE41C458A1C00B13D7B /* TableViewController.h */,
 				C4EEBCE51C458A1C00B13D7B /* TableViewController.m */,
+				C4EFF7011C4973E500739B21 /* TestTableViewController.h */,
+				C4EFF7021C4973E500739B21 /* TestTableViewController.m */,
+				C4EFF7041C49769E00739B21 /* MyTableViewCell.h */,
+				C4EFF7051C49769E00739B21 /* MyTableViewCell.m */,
 				C4EEBCE71C458A2400B13D7B /* Main.storyboard */,
 				C4EEBCB61C4571F100B13D7B /* Assets.xcassets */,
 				C4EEBCB81C4571F100B13D7B /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 				C4EEBCAF1C4571F100B13D7B /* AppDelegate.m in Sources */,
 				C4EEBCE61C458A1C00B13D7B /* TableViewController.m in Sources */,
 				C4EEBCAC1C4571F100B13D7B /* main.m in Sources */,
+				C4EFF7031C4973E500739B21 /* TestTableViewController.m in Sources */,
+				C4EFF7061C49769E00739B21 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

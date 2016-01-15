@@ -24,6 +24,23 @@
     __weak typeof(self) weakSelf = self;
     NSURLSession *session = [NSURLSession sharedSession];
     
+    
+//    NSMutableURLRequest *mutableRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://superUrl"]];
+//    
+//    mutableRequest.HTTPMethod = @"POST";
+//    NSDictionary *dict = @{@"Name" : @"Vasia", @"Sername" : @"Pupkin"};
+//    NSData *httpData = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
+//    
+//    mutableRequest.HTTPBody = httpData;
+//    
+//    
+//    NSURLSessionDataTask *postTask = [session dataTaskWithRequest:mutableRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//        
+//    }];
+//    
+//    [postTask resume];
+
+    
     //url
     NSURL *url = [NSURL URLWithString:@"https://randomuser.me/api/"];
     
