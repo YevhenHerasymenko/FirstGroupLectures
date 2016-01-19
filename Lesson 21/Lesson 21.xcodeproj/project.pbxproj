@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE71270DDD16DB4F11ED8DD /* libPods-Lesson 21.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA658667DB47E6F1FD1810A2 /* libPods-Lesson 21.a */; };
 		C4EFF7331C4E562F00739B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7321C4E562F00739B21 /* main.m */; };
 		C4EFF7361C4E562F00739B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7351C4E562F00739B21 /* AppDelegate.m */; };
-		C4EFF7391C4E562F00739B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7381C4E562F00739B21 /* ViewController.m */; };
 		C4EFF73C1C4E562F00739B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFF73A1C4E562F00739B21 /* Main.storyboard */; };
 		C4EFF73E1C4E562F00739B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EFF73D1C4E562F00739B21 /* Assets.xcassets */; };
 		C4EFF7411C4E562F00739B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFF73F1C4E562F00739B21 /* LaunchScreen.storyboard */; };
 		C4EFF74C1C4E562F00739B21 /* Lesson_21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF74B1C4E562F00739B21 /* Lesson_21Tests.m */; };
 		C4EFF7571C4E563000739B21 /* Lesson_21UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7561C4E562F00739B21 /* Lesson_21UITests.m */; };
+		C4EFF7661C4EAEEC00739B21 /* L21DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7651C4EAEEC00739B21 /* L21DrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83040D1F579DE3762DBDED4C /* Pods-Lesson 21.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lesson 21.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lesson 21/Pods-Lesson 21.release.xcconfig"; sourceTree = "<group>"; };
 		C4EFF72E1C4E562F00739B21 /* Lesson 21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EFF7321C4E562F00739B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4EFF7341C4E562F00739B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4EFF7351C4E562F00739B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4EFF7371C4E562F00739B21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4EFF7381C4E562F00739B21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4EFF73B1C4E562F00739B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4EFF73D1C4E562F00739B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EFF7401C4E562F00739B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		C4EFF7521C4E562F00739B21 /* Lesson 21UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 21UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EFF7561C4E562F00739B21 /* Lesson_21UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_21UITests.m; sourceTree = "<group>"; };
 		C4EFF7581C4E563000739B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EFF7641C4EAEEC00739B21 /* L21DrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21DrawerController.h; sourceTree = "<group>"; };
+		C4EFF7651C4EAEEC00739B21 /* L21DrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21DrawerController.m; sourceTree = "<group>"; };
+		E1A4AEF3AF4E553376539891 /* Pods-Lesson 21.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lesson 21.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lesson 21/Pods-Lesson 21.debug.xcconfig"; sourceTree = "<group>"; };
+		EA658667DB47E6F1FD1810A2 /* libPods-Lesson 21.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lesson 21.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE71270DDD16DB4F11ED8DD /* libPods-Lesson 21.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0D8017B70581203FBD7A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA658667DB47E6F1FD1810A2 /* libPods-Lesson 21.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4EFF7251C4E562F00739B21 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				C4EFF74A1C4E562F00739B21 /* Lesson 21Tests */,
 				C4EFF7551C4E562F00739B21 /* Lesson 21UITests */,
 				C4EFF72F1C4E562F00739B21 /* Products */,
+				D46A08061E9EF303002D9FCD /* Pods */,
+				AC0D8017B70581203FBD7A5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +118,8 @@
 			children = (
 				C4EFF7341C4E562F00739B21 /* AppDelegate.h */,
 				C4EFF7351C4E562F00739B21 /* AppDelegate.m */,
-				C4EFF7371C4E562F00739B21 /* ViewController.h */,
-				C4EFF7381C4E562F00739B21 /* ViewController.m */,
+				C4EFF7641C4EAEEC00739B21 /* L21DrawerController.h */,
+				C4EFF7651C4EAEEC00739B21 /* L21DrawerController.m */,
 				C4EFF73A1C4E562F00739B21 /* Main.storyboard */,
 				C4EFF73D1C4E562F00739B21 /* Assets.xcassets */,
 				C4EFF73F1C4E562F00739B21 /* LaunchScreen.storyboard */,
@@ -140,6 +155,15 @@
 			path = "Lesson 21UITests";
 			sourceTree = "<group>";
 		};
+		D46A08061E9EF303002D9FCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1A4AEF3AF4E553376539891 /* Pods-Lesson 21.debug.xcconfig */,
+				83040D1F579DE3762DBDED4C /* Pods-Lesson 21.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4EFF75B1C4E563000739B21 /* Build configuration list for PBXNativeTarget "Lesson 21" */;
 			buildPhases = (
+				B190978152C6F592916DC727 /* Check Pods Manifest.lock */,
 				C4EFF72A1C4E562F00739B21 /* Sources */,
 				C4EFF72B1C4E562F00739B21 /* Frameworks */,
 				C4EFF72C1C4E562F00739B21 /* Resources */,
+				5F1FD5BD49446BD4C7BEF9B5 /* Embed Pods Frameworks */,
+				7A13E161E0654DDA768A0F92 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +229,7 @@
 		C4EFF7261C4E562F00739B21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = L21;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Yevhen Herasymenko";
 				TargetAttributes = {
@@ -265,14 +293,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F1FD5BD49446BD4C7BEF9B5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lesson 21/Pods-Lesson 21-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A13E161E0654DDA768A0F92 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lesson 21/Pods-Lesson 21-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B190978152C6F592916DC727 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4EFF72A1C4E562F00739B21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4EFF7391C4E562F00739B21 /* ViewController.m in Sources */,
 				C4EFF7361C4E562F00739B21 /* AppDelegate.m in Sources */,
 				C4EFF7331C4E562F00739B21 /* main.m in Sources */,
+				C4EFF7661C4EAEEC00739B21 /* L21DrawerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +487,7 @@
 		};
 		C4EFF75C1C4E563000739B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A4AEF3AF4E553376539891 /* Pods-Lesson 21.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Lesson 21/Info.plist";
@@ -422,6 +499,7 @@
 		};
 		C4EFF75D1C4E563000739B21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83040D1F579DE3762DBDED4C /* Pods-Lesson 21.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Lesson 21/Info.plist";
@@ -498,6 +576,7 @@
 				C4EFF75D1C4E563000739B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4EFF75E1C4E563000739B21 /* Build configuration list for PBXNativeTarget "Lesson 21Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +585,7 @@
 				C4EFF7601C4E563000739B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4EFF7611C4E563000739B21 /* Build configuration list for PBXNativeTarget "Lesson 21UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +594,7 @@
 				C4EFF7631C4E563000739B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
