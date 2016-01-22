@@ -16,6 +16,9 @@
 		C404454A1C529D2E002392C2 /* TMDB_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445491C529D2E002392C2 /* TMDB_AppUITests.m */; };
 		C404455C1C52AC56002392C2 /* MAFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C404455B1C52AC56002392C2 /* MAFConstants.m */; };
 		C404455F1C52AC6F002392C2 /* UIColor+MAFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C404455E1C52AC6F002392C2 /* UIColor+MAFColor.m */; };
+		C40445621C52BD6E002392C2 /* MAFDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445611C52BD6E002392C2 /* MAFDrawerController.m */; };
+		C40445651C52BD88002392C2 /* MAFLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445641C52BD88002392C2 /* MAFLeftMenuViewController.m */; };
+		C40445681C52BDDF002392C2 /* MAFNewFilmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445671C52BDDF002392C2 /* MAFNewFilmsViewController.m */; };
 		F7F97A4A04129AAA7F11EA0D /* libPods-TMDB App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D49BCD7345F75329B008CAD /* libPods-TMDB App.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,12 @@
 		C404455B1C52AC56002392C2 /* MAFConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFConstants.m; sourceTree = "<group>"; };
 		C404455D1C52AC6F002392C2 /* UIColor+MAFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MAFColor.h"; sourceTree = "<group>"; };
 		C404455E1C52AC6F002392C2 /* UIColor+MAFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MAFColor.m"; sourceTree = "<group>"; };
+		C40445601C52BD6E002392C2 /* MAFDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFDrawerController.h; sourceTree = "<group>"; };
+		C40445611C52BD6E002392C2 /* MAFDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFDrawerController.m; sourceTree = "<group>"; };
+		C40445631C52BD88002392C2 /* MAFLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLeftMenuViewController.h; sourceTree = "<group>"; };
+		C40445641C52BD88002392C2 /* MAFLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFLeftMenuViewController.m; sourceTree = "<group>"; };
+		C40445661C52BDDF002392C2 /* MAFNewFilmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFNewFilmsViewController.h; sourceTree = "<group>"; };
+		C40445671C52BDDF002392C2 /* MAFNewFilmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFNewFilmsViewController.m; sourceTree = "<group>"; };
 		FB84618916CE5D162B29C0C3 /* Pods-TMDB App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDB App.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMDB App/Pods-TMDB App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +180,12 @@
 		C40445571C52A9CC002392C2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C40445601C52BD6E002392C2 /* MAFDrawerController.h */,
+				C40445611C52BD6E002392C2 /* MAFDrawerController.m */,
+				C40445631C52BD88002392C2 /* MAFLeftMenuViewController.h */,
+				C40445641C52BD88002392C2 /* MAFLeftMenuViewController.m */,
+				C40445661C52BDDF002392C2 /* MAFNewFilmsViewController.h */,
+				C40445671C52BDDF002392C2 /* MAFNewFilmsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -378,7 +393,10 @@
 				C404455F1C52AC6F002392C2 /* UIColor+MAFColor.m in Sources */,
 				C40445291C529D2D002392C2 /* AppDelegate.m in Sources */,
 				C404455C1C52AC56002392C2 /* MAFConstants.m in Sources */,
+				C40445681C52BDDF002392C2 /* MAFNewFilmsViewController.m in Sources */,
+				C40445651C52BD88002392C2 /* MAFLeftMenuViewController.m in Sources */,
 				C40445261C529D2D002392C2 /* main.m in Sources */,
+				C40445621C52BD6E002392C2 /* MAFDrawerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
