@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C40445261C529D2D002392C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445251C529D2D002392C2 /* main.m */; };
 		C40445291C529D2D002392C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445281C529D2D002392C2 /* AppDelegate.m */; };
-		C404452C1C529D2D002392C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404452B1C529D2D002392C2 /* ViewController.m */; };
 		C404452F1C529D2D002392C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C404452D1C529D2D002392C2 /* Main.storyboard */; };
 		C40445311C529D2D002392C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40445301C529D2D002392C2 /* Assets.xcassets */; };
 		C40445341C529D2D002392C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40445321C529D2D002392C2 /* LaunchScreen.storyboard */; };
 		C404453F1C529D2E002392C2 /* TMDB_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C404453E1C529D2E002392C2 /* TMDB_AppTests.m */; };
 		C404454A1C529D2E002392C2 /* TMDB_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445491C529D2E002392C2 /* TMDB_AppUITests.m */; };
+		C404455C1C52AC56002392C2 /* MAFConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C404455B1C52AC56002392C2 /* MAFConstants.m */; };
+		C404455F1C52AC6F002392C2 /* UIColor+MAFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C404455E1C52AC6F002392C2 /* UIColor+MAFColor.m */; };
+		F7F97A4A04129AAA7F11EA0D /* libPods-TMDB App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D49BCD7345F75329B008CAD /* libPods-TMDB App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D49BCD7345F75329B008CAD /* libPods-TMDB App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMDB App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA61B15A33FBDF8BA678BE8 /* Pods-TMDB App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDB App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMDB App/Pods-TMDB App.debug.xcconfig"; sourceTree = "<group>"; };
 		C40445211C529D2D002392C2 /* TMDB App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMDB App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40445251C529D2D002392C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C40445271C529D2D002392C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C40445281C529D2D002392C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C404452A1C529D2D002392C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C404452B1C529D2D002392C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C404452E1C529D2D002392C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C40445301C529D2D002392C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40445331C529D2D002392C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,11 @@
 		C40445451C529D2E002392C2 /* TMDB AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMDB AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40445491C529D2E002392C2 /* TMDB_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDB_AppUITests.m; sourceTree = "<group>"; };
 		C404454B1C529D2E002392C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C404455A1C52AC56002392C2 /* MAFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFConstants.h; sourceTree = "<group>"; };
+		C404455B1C52AC56002392C2 /* MAFConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFConstants.m; sourceTree = "<group>"; };
+		C404455D1C52AC6F002392C2 /* UIColor+MAFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MAFColor.h"; sourceTree = "<group>"; };
+		C404455E1C52AC6F002392C2 /* UIColor+MAFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MAFColor.m"; sourceTree = "<group>"; };
+		FB84618916CE5D162B29C0C3 /* Pods-TMDB App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDB App.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMDB App/Pods-TMDB App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F97A4A04129AAA7F11EA0D /* libPods-TMDB App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48295CE948A5B8D67F7C7273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABA61B15A33FBDF8BA678BE8 /* Pods-TMDB App.debug.xcconfig */,
+				FB84618916CE5D162B29C0C3 /* Pods-TMDB App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		837CC50A56663631FF1974B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D49BCD7345F75329B008CAD /* libPods-TMDB App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C40445181C529D2D002392C2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				C404453D1C529D2E002392C2 /* TMDB AppTests */,
 				C40445481C529D2E002392C2 /* TMDB AppUITests */,
 				C40445221C529D2D002392C2 /* Products */,
+				48295CE948A5B8D67F7C7273 /* Pods */,
+				837CC50A56663631FF1974B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +128,11 @@
 		C40445231C529D2D002392C2 /* TMDB App */ = {
 			isa = PBXGroup;
 			children = (
+				C40445591C52ABE7002392C2 /* Resources */,
+				C40445581C52AAC7002392C2 /* Categories */,
+				C40445571C52A9CC002392C2 /* Controller */,
 				C40445271C529D2D002392C2 /* AppDelegate.h */,
 				C40445281C529D2D002392C2 /* AppDelegate.m */,
-				C404452A1C529D2D002392C2 /* ViewController.h */,
-				C404452B1C529D2D002392C2 /* ViewController.m */,
 				C404452D1C529D2D002392C2 /* Main.storyboard */,
 				C40445301C529D2D002392C2 /* Assets.xcassets */,
 				C40445321C529D2D002392C2 /* LaunchScreen.storyboard */,
@@ -140,6 +168,31 @@
 			path = "TMDB AppUITests";
 			sourceTree = "<group>";
 		};
+		C40445571C52A9CC002392C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C40445581C52AAC7002392C2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C404455D1C52AC6F002392C2 /* UIColor+MAFColor.h */,
+				C404455E1C52AC6F002392C2 /* UIColor+MAFColor.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C40445591C52ABE7002392C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C404455A1C52AC56002392C2 /* MAFConstants.h */,
+				C404455B1C52AC56002392C2 /* MAFConstants.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C404454E1C529D2E002392C2 /* Build configuration list for PBXNativeTarget "TMDB App" */;
 			buildPhases = (
+				3AB643A67E2E80B93308BD4B /* Check Pods Manifest.lock */,
 				C404451D1C529D2D002392C2 /* Sources */,
 				C404451E1C529D2D002392C2 /* Frameworks */,
 				C404451F1C529D2D002392C2 /* Resources */,
+				41C6AFBBB7614FFBC42A63C5 /* Embed Pods Frameworks */,
+				90ED701993AF6C0C21BF5B3D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +258,7 @@
 		C40445191C529D2D002392C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MAF;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Yevhen Herasymenko";
 				TargetAttributes = {
@@ -265,13 +322,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AB643A67E2E80B93308BD4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41C6AFBBB7614FFBC42A63C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMDB App/Pods-TMDB App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90ED701993AF6C0C21BF5B3D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMDB App/Pods-TMDB App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C404451D1C529D2D002392C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C404452C1C529D2D002392C2 /* ViewController.m in Sources */,
+				C404455F1C52AC6F002392C2 /* UIColor+MAFColor.m in Sources */,
 				C40445291C529D2D002392C2 /* AppDelegate.m in Sources */,
+				C404455C1C52AC56002392C2 /* MAFConstants.m in Sources */,
 				C40445261C529D2D002392C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +517,7 @@
 		};
 		C404454F1C529D2E002392C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA61B15A33FBDF8BA678BE8 /* Pods-TMDB App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TMDB App/Info.plist";
@@ -422,6 +529,7 @@
 		};
 		C40445501C529D2E002392C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB84618916CE5D162B29C0C3 /* Pods-TMDB App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TMDB App/Info.plist";
@@ -498,6 +606,7 @@
 				C40445501C529D2E002392C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40445511C529D2E002392C2 /* Build configuration list for PBXNativeTarget "TMDB AppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +615,7 @@
 				C40445531C529D2E002392C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40445541C529D2E002392C2 /* Build configuration list for PBXNativeTarget "TMDB AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +624,7 @@
 				C40445561C529D2E002392C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

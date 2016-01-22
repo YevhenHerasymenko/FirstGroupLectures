@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MAFConstants.h
 //  TMDB App
 //
 //  Created by Yevhen Herasymenko on 22/01/2016.
 //  Copyright © 2016 Yevhen Herasymenko. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface MAFConstants : NSObject
 
 @end
-
