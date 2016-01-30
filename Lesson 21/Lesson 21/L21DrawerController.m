@@ -28,6 +28,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    NSString *strplistPath = [[NSBundle mainBundle] pathForResource:@"MyRidles" ofType:@"plist"];
+    
+    // read property list into memory as an NSData  object
+    NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:strplistPath];
+    NSString *strerrorDesc = nil;
+    NSPropertyListFormat plistFormat;
+    // convert static property liost into dictionary object
+    NSArray *temp = (NSArray *)[NSPropertyListSerialization propertyListWithData:plistXML options:NSPropertyListMutableContainersAndLeaves format:&plistFormat error:nil];
+    if (!temp) {
+        NSLog(@"Error reading plist: %@, format: %lu", strerrorDesc, (unsigned long)plistFormat);
+    } else {
+        // assign values
+        NSLog([temp description]);
+    }
+    
 }
 
 @end
