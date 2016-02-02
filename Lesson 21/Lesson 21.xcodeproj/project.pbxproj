@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1AE71270DDD16DB4F11ED8DD /* libPods-Lesson 21.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA658667DB47E6F1FD1810A2 /* libPods-Lesson 21.a */; };
-		C4886AF41C5BD21F004E82B0 /* L21BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886AF31C5BD21F004E82B0 /* L21BasicViewController.m */; };
-		C4886AFA1C5BD2A6004E82B0 /* L21StartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886AF91C5BD2A6004E82B0 /* L21StartScreenViewController.m */; };
-		C4886AFC1C5BD3F5004E82B0 /* MyRidles.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4886AFB1C5BD3F5004E82B0 /* MyRidles.plist */; };
-		C4886AFF1C5BDE12004E82B0 /* L21CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886AFE1C5BDE12004E82B0 /* L21CollectionViewController.m */; };
-		C4886B021C5BDE67004E82B0 /* L21CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B011C5BDE67004E82B0 /* L21CollectionViewCell.m */; };
-		C4886B051C5BE7AD004E82B0 /* L21GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B041C5BE7AD004E82B0 /* L21GestureViewController.m */; };
+		C4886B1C1C611F25004E82B0 /* L21DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B0E1C611F25004E82B0 /* L21DrawerController.m */; };
+		C4886B1D1C611F25004E82B0 /* L21StartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B101C611F25004E82B0 /* L21StartScreenViewController.m */; };
+		C4886B1E1C611F25004E82B0 /* L21BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B131C611F25004E82B0 /* L21BasicViewController.m */; };
+		C4886B1F1C611F25004E82B0 /* L21CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B151C611F25004E82B0 /* L21CollectionViewCell.m */; };
+		C4886B201C611F25004E82B0 /* L21CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B171C611F25004E82B0 /* L21CollectionViewController.m */; };
+		C4886B211C611F25004E82B0 /* L21GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B191C611F25004E82B0 /* L21GestureViewController.m */; };
+		C4886B221C611F25004E82B0 /* MyRidles.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4886B1A1C611F25004E82B0 /* MyRidles.plist */; };
+		C4886B251C611F78004E82B0 /* L21BasicNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4886B241C611F78004E82B0 /* L21BasicNotificationViewController.m */; };
 		C4EFF7331C4E562F00739B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7321C4E562F00739B21 /* main.m */; };
 		C4EFF7361C4E562F00739B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7351C4E562F00739B21 /* AppDelegate.m */; };
 		C4EFF73C1C4E562F00739B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFF73A1C4E562F00739B21 /* Main.storyboard */; };
@@ -21,7 +23,6 @@
 		C4EFF7411C4E562F00739B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFF73F1C4E562F00739B21 /* LaunchScreen.storyboard */; };
 		C4EFF74C1C4E562F00739B21 /* Lesson_21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF74B1C4E562F00739B21 /* Lesson_21Tests.m */; };
 		C4EFF7571C4E563000739B21 /* Lesson_21UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7561C4E562F00739B21 /* Lesson_21UITests.m */; };
-		C4EFF7661C4EAEEC00739B21 /* L21DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFF7651C4EAEEC00739B21 /* L21DrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,17 +44,21 @@
 
 /* Begin PBXFileReference section */
 		83040D1F579DE3762DBDED4C /* Pods-Lesson 21.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lesson 21.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lesson 21/Pods-Lesson 21.release.xcconfig"; sourceTree = "<group>"; };
-		C4886AF21C5BD21F004E82B0 /* L21BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21BasicViewController.h; sourceTree = "<group>"; };
-		C4886AF31C5BD21F004E82B0 /* L21BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21BasicViewController.m; sourceTree = "<group>"; };
-		C4886AF81C5BD2A6004E82B0 /* L21StartScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21StartScreenViewController.h; sourceTree = "<group>"; };
-		C4886AF91C5BD2A6004E82B0 /* L21StartScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21StartScreenViewController.m; sourceTree = "<group>"; };
-		C4886AFB1C5BD3F5004E82B0 /* MyRidles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyRidles.plist; sourceTree = "<group>"; };
-		C4886AFD1C5BDE12004E82B0 /* L21CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21CollectionViewController.h; sourceTree = "<group>"; };
-		C4886AFE1C5BDE12004E82B0 /* L21CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21CollectionViewController.m; sourceTree = "<group>"; };
-		C4886B001C5BDE67004E82B0 /* L21CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21CollectionViewCell.h; sourceTree = "<group>"; };
-		C4886B011C5BDE67004E82B0 /* L21CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21CollectionViewCell.m; sourceTree = "<group>"; };
-		C4886B031C5BE7AD004E82B0 /* L21GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21GestureViewController.h; sourceTree = "<group>"; };
-		C4886B041C5BE7AD004E82B0 /* L21GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21GestureViewController.m; sourceTree = "<group>"; };
+		C4886B0D1C611F25004E82B0 /* L21DrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21DrawerController.h; sourceTree = "<group>"; };
+		C4886B0E1C611F25004E82B0 /* L21DrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21DrawerController.m; sourceTree = "<group>"; };
+		C4886B0F1C611F25004E82B0 /* L21StartScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21StartScreenViewController.h; sourceTree = "<group>"; };
+		C4886B101C611F25004E82B0 /* L21StartScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21StartScreenViewController.m; sourceTree = "<group>"; };
+		C4886B121C611F25004E82B0 /* L21BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21BasicViewController.h; sourceTree = "<group>"; };
+		C4886B131C611F25004E82B0 /* L21BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21BasicViewController.m; sourceTree = "<group>"; };
+		C4886B141C611F25004E82B0 /* L21CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21CollectionViewCell.h; sourceTree = "<group>"; };
+		C4886B151C611F25004E82B0 /* L21CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21CollectionViewCell.m; sourceTree = "<group>"; };
+		C4886B161C611F25004E82B0 /* L21CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21CollectionViewController.h; sourceTree = "<group>"; };
+		C4886B171C611F25004E82B0 /* L21CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21CollectionViewController.m; sourceTree = "<group>"; };
+		C4886B181C611F25004E82B0 /* L21GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21GestureViewController.h; sourceTree = "<group>"; };
+		C4886B191C611F25004E82B0 /* L21GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21GestureViewController.m; sourceTree = "<group>"; };
+		C4886B1A1C611F25004E82B0 /* MyRidles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyRidles.plist; sourceTree = "<group>"; };
+		C4886B231C611F78004E82B0 /* L21BasicNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21BasicNotificationViewController.h; sourceTree = "<group>"; };
+		C4886B241C611F78004E82B0 /* L21BasicNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21BasicNotificationViewController.m; sourceTree = "<group>"; };
 		C4EFF72E1C4E562F00739B21 /* Lesson 21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EFF7321C4E562F00739B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4EFF7341C4E562F00739B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,8 +73,6 @@
 		C4EFF7521C4E562F00739B21 /* Lesson 21UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 21UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EFF7561C4E562F00739B21 /* Lesson_21UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_21UITests.m; sourceTree = "<group>"; };
 		C4EFF7581C4E563000739B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4EFF7641C4EAEEC00739B21 /* L21DrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L21DrawerController.h; sourceTree = "<group>"; };
-		C4EFF7651C4EAEEC00739B21 /* L21DrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L21DrawerController.m; sourceTree = "<group>"; };
 		E1A4AEF3AF4E553376539891 /* Pods-Lesson 21.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lesson 21.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lesson 21/Pods-Lesson 21.debug.xcconfig"; sourceTree = "<group>"; };
 		EA658667DB47E6F1FD1810A2 /* libPods-Lesson 21.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lesson 21.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,6 +111,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C4886B0C1C611F25004E82B0 /* Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				C4886B0D1C611F25004E82B0 /* L21DrawerController.h */,
+				C4886B0E1C611F25004E82B0 /* L21DrawerController.m */,
+				C4886B0F1C611F25004E82B0 /* L21StartScreenViewController.h */,
+				C4886B101C611F25004E82B0 /* L21StartScreenViewController.m */,
+			);
+			path = Cocoapods;
+			sourceTree = "<group>";
+		};
+		C4886B111C611F25004E82B0 /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				C4886B121C611F25004E82B0 /* L21BasicViewController.h */,
+				C4886B131C611F25004E82B0 /* L21BasicViewController.m */,
+				C4886B141C611F25004E82B0 /* L21CollectionViewCell.h */,
+				C4886B151C611F25004E82B0 /* L21CollectionViewCell.m */,
+				C4886B161C611F25004E82B0 /* L21CollectionViewController.h */,
+				C4886B171C611F25004E82B0 /* L21CollectionViewController.m */,
+				C4886B181C611F25004E82B0 /* L21GestureViewController.h */,
+				C4886B191C611F25004E82B0 /* L21GestureViewController.m */,
+				C4886B1A1C611F25004E82B0 /* MyRidles.plist */,
+			);
+			path = Multithreading;
+			sourceTree = "<group>";
+		};
+		C4886B1B1C611F25004E82B0 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				C4886B231C611F78004E82B0 /* L21BasicNotificationViewController.h */,
+				C4886B241C611F78004E82B0 /* L21BasicNotificationViewController.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		C4EFF7251C4E562F00739B21 = {
 			isa = PBXGroup;
 			children = (
@@ -133,21 +172,11 @@
 		C4EFF7301C4E562F00739B21 /* Lesson 21 */ = {
 			isa = PBXGroup;
 			children = (
+				C4886B0C1C611F25004E82B0 /* Cocoapods */,
+				C4886B111C611F25004E82B0 /* Multithreading */,
+				C4886B1B1C611F25004E82B0 /* Notifications */,
 				C4EFF7341C4E562F00739B21 /* AppDelegate.h */,
 				C4EFF7351C4E562F00739B21 /* AppDelegate.m */,
-				C4886AFB1C5BD3F5004E82B0 /* MyRidles.plist */,
-				C4886AF21C5BD21F004E82B0 /* L21BasicViewController.h */,
-				C4886AF31C5BD21F004E82B0 /* L21BasicViewController.m */,
-				C4886AF81C5BD2A6004E82B0 /* L21StartScreenViewController.h */,
-				C4886AF91C5BD2A6004E82B0 /* L21StartScreenViewController.m */,
-				C4EFF7641C4EAEEC00739B21 /* L21DrawerController.h */,
-				C4EFF7651C4EAEEC00739B21 /* L21DrawerController.m */,
-				C4886AFD1C5BDE12004E82B0 /* L21CollectionViewController.h */,
-				C4886AFE1C5BDE12004E82B0 /* L21CollectionViewController.m */,
-				C4886B001C5BDE67004E82B0 /* L21CollectionViewCell.h */,
-				C4886B011C5BDE67004E82B0 /* L21CollectionViewCell.m */,
-				C4886B031C5BE7AD004E82B0 /* L21GestureViewController.h */,
-				C4886B041C5BE7AD004E82B0 /* L21GestureViewController.m */,
 				C4EFF73A1C4E562F00739B21 /* Main.storyboard */,
 				C4EFF73D1C4E562F00739B21 /* Assets.xcassets */,
 				C4EFF73F1C4E562F00739B21 /* LaunchScreen.storyboard */,
@@ -300,7 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EFF7411C4E562F00739B21 /* LaunchScreen.storyboard in Resources */,
-				C4886AFC1C5BD3F5004E82B0 /* MyRidles.plist in Resources */,
+				C4886B221C611F25004E82B0 /* MyRidles.plist in Resources */,
 				C4EFF73E1C4E562F00739B21 /* Assets.xcassets in Resources */,
 				C4EFF73C1C4E562F00739B21 /* Main.storyboard in Resources */,
 			);
@@ -375,14 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4886B201C611F25004E82B0 /* L21CollectionViewController.m in Sources */,
 				C4EFF7361C4E562F00739B21 /* AppDelegate.m in Sources */,
+				C4886B211C611F25004E82B0 /* L21GestureViewController.m in Sources */,
+				C4886B1D1C611F25004E82B0 /* L21StartScreenViewController.m in Sources */,
 				C4EFF7331C4E562F00739B21 /* main.m in Sources */,
-				C4886B051C5BE7AD004E82B0 /* L21GestureViewController.m in Sources */,
-				C4886AFF1C5BDE12004E82B0 /* L21CollectionViewController.m in Sources */,
-				C4886B021C5BDE67004E82B0 /* L21CollectionViewCell.m in Sources */,
-				C4886AFA1C5BD2A6004E82B0 /* L21StartScreenViewController.m in Sources */,
-				C4EFF7661C4EAEEC00739B21 /* L21DrawerController.m in Sources */,
-				C4886AF41C5BD21F004E82B0 /* L21BasicViewController.m in Sources */,
+				C4886B1C1C611F25004E82B0 /* L21DrawerController.m in Sources */,
+				C4886B1F1C611F25004E82B0 /* L21CollectionViewCell.m in Sources */,
+				C4886B251C611F78004E82B0 /* L21BasicNotificationViewController.m in Sources */,
+				C4886B1E1C611F25004E82B0 /* L21BasicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

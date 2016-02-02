@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QKw-kI-Gzl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BH8-mx-gK0">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -46,6 +46,90 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W50-Bu-fsW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="941" y="797"/>
+        </scene>
+        <!--Basic Notification View Controller-->
+        <scene sceneID="ufY-up-794">
+            <objects>
+                <viewController id="tsP-bX-c5w" customClass="L21BasicNotificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yq3-Jm-bvj"/>
+                        <viewControllerLayoutGuide type="bottom" id="cmr-yc-Dw9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PoI-II-qol">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="gYW-aA-ht5">
+                                <rect key="frame" x="285" y="210" width="30" height="181"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvT-kn-mCF">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="increase:" destination="tsP-bX-c5w" eventType="touchUpInside" id="Gr7-sa-enk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlI-vK-JyP">
+                                        <rect key="frame" x="0.0" y="80" width="30" height="30"/>
+                                        <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="decrease:" destination="tsP-bX-c5w" eventType="touchUpInside" id="kYz-zi-Eck"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXY-Dz-S0Z">
+                                        <rect key="frame" x="0.0" y="160" width="30" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lfB-6V-AMD">
+                                <rect key="frame" x="252" y="163" width="97" height="21"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.15948735040000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="s1H-IE-H6S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="tsP-bX-c5w" id="5WN-xM-7dK"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gYW-aA-ht5" firstAttribute="centerY" secondItem="PoI-II-qol" secondAttribute="centerY" id="2Mm-Ni-qwb"/>
+                            <constraint firstItem="gYW-aA-ht5" firstAttribute="centerX" secondItem="PoI-II-qol" secondAttribute="centerX" id="90u-CV-ug0"/>
+                            <constraint firstItem="lfB-6V-AMD" firstAttribute="centerX" secondItem="PoI-II-qol" secondAttribute="centerX" id="OPS-M4-KjM"/>
+                            <constraint firstItem="gYW-aA-ht5" firstAttribute="top" secondItem="lfB-6V-AMD" secondAttribute="bottom" constant="26" id="lbH-Fa-EyI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IBi-Ra-uwM"/>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="lbH-Fa-EyI" id="rYU-Qa-x6t"/>
+                        <outlet property="countLabel" destination="MXY-Dz-S0Z" id="wFO-th-7Iz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gPx-Jn-LUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="-2015"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1V0-0c-ryJ">
+            <objects>
+                <navigationController id="BH8-mx-gK0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7sH-v6-TKT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tsP-bX-c5w" kind="relationship" relationship="rootViewController" id="lzM-QX-0XP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1wS-5b-1lE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="-2015"/>
         </scene>
         <!--Gesture View Controller-->
         <scene sceneID="Xv5-o3-Fag">
