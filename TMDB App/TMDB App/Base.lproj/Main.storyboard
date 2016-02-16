@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--Drawer Controller-->
@@ -51,8 +51,66 @@
                     <view key="view" contentMode="scaleToFill" id="iUf-YK-ZvL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="0.15948735040000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-iz-ESD">
+                                <rect key="frame" x="0.0" y="40" width="600" height="560"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zHs-Yd-w9U">
+                                        <rect key="frame" x="20" y="0.0" width="560" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Movie name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fHT-gX-Ego">
+                                                <rect key="frame" x="0.0" y="0.0" width="493" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="wMb-FY-hgw" id="2Xd-jo-9Hd"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NC-B8-gsc">
+                                                <rect key="frame" x="503" y="0.0" width="57" height="34"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Search">
+                                                    <color key="titleColor" red="1" green="1" blue="0.15948735040000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="search:" destination="wMb-FY-hgw" eventType="touchUpInside" id="zo8-Tc-HIW"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="s8K-ex-4eI">
+                                        <rect key="frame" x="0.0" y="44" width="600" height="516"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="wMb-FY-hgw" id="3lr-gt-FDD"/>
+                                            <outlet property="delegate" destination="wMb-FY-hgw" id="OMq-Ei-Gie"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="s8K-ex-4eI" secondAttribute="trailing" id="2uk-ve-gLb"/>
+                                    <constraint firstItem="s8K-ex-4eI" firstAttribute="leading" secondItem="yZw-iz-ESD" secondAttribute="leading" id="dTs-fF-saE"/>
+                                    <constraint firstAttribute="trailing" secondItem="zHs-Yd-w9U" secondAttribute="trailing" constant="20" id="g4d-uf-Ljf"/>
+                                    <constraint firstItem="zHs-Yd-w9U" firstAttribute="leading" secondItem="yZw-iz-ESD" secondAttribute="leading" constant="20" id="oyI-sl-jkh"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yZw-iz-ESD" secondAttribute="trailing" id="Blk-RP-hQH"/>
+                            <constraint firstItem="yZw-iz-ESD" firstAttribute="top" secondItem="Mce-6X-Ixt" secondAttribute="bottom" constant="20" id="CQ8-PA-Wdh"/>
+                            <constraint firstItem="yZw-iz-ESD" firstAttribute="leading" secondItem="iUf-YK-ZvL" secondAttribute="leading" id="RuM-NO-90J"/>
+                            <constraint firstItem="bDC-Ug-JXb" firstAttribute="top" secondItem="yZw-iz-ESD" secondAttribute="bottom" id="fz3-Mw-1yG"/>
+                        </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <connections>
+                        <outlet property="tableView" destination="s8K-ex-4eI" id="QXE-58-OxD"/>
+                        <outlet property="textField" destination="fHT-gX-Ego" id="AEA-3O-5kS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yy1-t7-zBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

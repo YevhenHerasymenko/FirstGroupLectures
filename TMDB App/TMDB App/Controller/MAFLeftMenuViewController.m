@@ -7,8 +7,15 @@
 //
 
 #import "MAFLeftMenuViewController.h"
+#import "MAFAPIManager+SearchMovieRequest.h"
+#import "MAFMovie.h"
+#import "MAFConstants.h"
 
-@interface MAFLeftMenuViewController ()
+@interface MAFLeftMenuViewController ()<UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@property (strong, nonatomic) NSArray<MAFMovie *> *movies;
 
 @end
 
@@ -16,22 +23,50 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.movies = [NSArray new];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Action
+
+- (IBAction)search:(UIButton *)sender {
+    [self.textField resignFirstResponder];
+    __weak __typeof(self) weakSelf = self;
+    [[MAFAPIManager sharedManager] searchMovie:self.textField.text success:^(NSArray<MAFMovie *> *movies) {
+        __strong __typeof(weakSelf) strongSelf = self;
+        strongSelf.movies = movies;
+        [strongSelf.tableView reloadData];
+        
+    }];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - TableView
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.movies.count;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    cell.textLabel.text = self.movies[indexPath.row].title;
+    if (indexPath.row < 2) {
+        NSString *imageUrl = [MAFImageBasicUrl stringByAppendingString:self.movies[indexPath.row].posterPath];
+        NSLog(@"%@", imageUrl);
+        NSURL *url = [NSURL URLWithString:imageUrl];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        UIImage *image = [UIImage imageWithData:data];
+        cell.imageView.image = image;
+    }
+
+
+    return cell;
+}
+
+#pragma mark - TextField
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    [self search:nil];
+    return YES;
+}
 
 @end

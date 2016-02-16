@@ -10,4 +10,9 @@
 
 @interface MAFConstants : NSObject
 
+extern NSString *const MAFBasicUrl;
+extern NSString *const MAFTMDBApiKey;
+extern NSString *const MAFImageBasicUrl;
+extern NSString *const MAFSearchMovie;
+
 @end

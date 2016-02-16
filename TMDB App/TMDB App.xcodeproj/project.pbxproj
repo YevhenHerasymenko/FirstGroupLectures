@@ -19,6 +19,9 @@
 		C40445621C52BD6E002392C2 /* MAFDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445611C52BD6E002392C2 /* MAFDrawerController.m */; };
 		C40445651C52BD88002392C2 /* MAFLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445641C52BD88002392C2 /* MAFLeftMenuViewController.m */; };
 		C40445681C52BDDF002392C2 /* MAFNewFilmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40445671C52BDDF002392C2 /* MAFNewFilmsViewController.m */; };
+		C41619801C739A5D00429838 /* MAFAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C416197F1C739A5D00429838 /* MAFAPIManager.m */; };
+		C41619831C739BE100429838 /* MAFAPIManager+SearchMovieRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C41619821C739BE100429838 /* MAFAPIManager+SearchMovieRequest.m */; };
+		C41619861C73AC2400429838 /* MAFMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = C41619851C73AC2400429838 /* MAFMovie.m */; };
 		F7F97A4A04129AAA7F11EA0D /* libPods-TMDB App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D49BCD7345F75329B008CAD /* libPods-TMDB App.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +69,12 @@
 		C40445641C52BD88002392C2 /* MAFLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFLeftMenuViewController.m; sourceTree = "<group>"; };
 		C40445661C52BDDF002392C2 /* MAFNewFilmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFNewFilmsViewController.h; sourceTree = "<group>"; };
 		C40445671C52BDDF002392C2 /* MAFNewFilmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFNewFilmsViewController.m; sourceTree = "<group>"; };
+		C416197E1C739A5D00429838 /* MAFAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFAPIManager.h; sourceTree = "<group>"; };
+		C416197F1C739A5D00429838 /* MAFAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFAPIManager.m; sourceTree = "<group>"; };
+		C41619811C739BE100429838 /* MAFAPIManager+SearchMovieRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MAFAPIManager+SearchMovieRequest.h"; sourceTree = "<group>"; };
+		C41619821C739BE100429838 /* MAFAPIManager+SearchMovieRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MAFAPIManager+SearchMovieRequest.m"; sourceTree = "<group>"; };
+		C41619841C73AC2400429838 /* MAFMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFMovie.h; sourceTree = "<group>"; };
+		C41619851C73AC2400429838 /* MAFMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFMovie.m; sourceTree = "<group>"; };
 		FB84618916CE5D162B29C0C3 /* Pods-TMDB App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDB App.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMDB App/Pods-TMDB App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +146,8 @@
 		C40445231C529D2D002392C2 /* TMDB App */ = {
 			isa = PBXGroup;
 			children = (
+				C416197D1C73997900429838 /* Model */,
+				C416197A1C73994300429838 /* Tools */,
 				C40445591C52ABE7002392C2 /* Resources */,
 				C40445581C52AAC7002392C2 /* Categories */,
 				C40445571C52A9CC002392C2 /* Controller */,
@@ -206,6 +217,42 @@
 				C404455B1C52AC56002392C2 /* MAFConstants.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C416197A1C73994300429838 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C416197B1C73994300429838 /* Network */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C416197B1C73994300429838 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C416197C1C73994300429838 /* Requests */,
+				C416197E1C739A5D00429838 /* MAFAPIManager.h */,
+				C416197F1C739A5D00429838 /* MAFAPIManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C416197C1C73994300429838 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C41619811C739BE100429838 /* MAFAPIManager+SearchMovieRequest.h */,
+				C41619821C739BE100429838 /* MAFAPIManager+SearchMovieRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		C416197D1C73997900429838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C41619841C73AC2400429838 /* MAFMovie.h */,
+				C41619851C73AC2400429838 /* MAFMovie.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,7 +440,10 @@
 				C404455F1C52AC6F002392C2 /* UIColor+MAFColor.m in Sources */,
 				C40445291C529D2D002392C2 /* AppDelegate.m in Sources */,
 				C404455C1C52AC56002392C2 /* MAFConstants.m in Sources */,
+				C41619831C739BE100429838 /* MAFAPIManager+SearchMovieRequest.m in Sources */,
 				C40445681C52BDDF002392C2 /* MAFNewFilmsViewController.m in Sources */,
+				C41619861C73AC2400429838 /* MAFMovie.m in Sources */,
+				C41619801C739A5D00429838 /* MAFAPIManager.m in Sources */,
 				C40445651C52BD88002392C2 /* MAFLeftMenuViewController.m in Sources */,
 				C40445261C529D2D002392C2 /* main.m in Sources */,
 				C40445621C52BD6E002392C2 /* MAFDrawerController.m in Sources */,
