@@ -23,11 +23,14 @@
     [super viewDidLoad];
     self.counter = 0;
     
+    
+    //Register for notification
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showNewCounterValue:) name:@"changeCounter" object:nil];
     
 //    NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self.view attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.countLabel attribute:NSLayoutAttributeTop multiplier:1.0 constant:10];
 //    [self.view addConstraint:topConstraint];
     
+    //Register KVO
     [self.countLabel addObserver:self forKeyPath:@"text" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
     
     UILocalNotification* localNotification = [[UILocalNotification alloc] init];
